@@ -10,7 +10,7 @@ Category.init(
     // define columns
     type: DataTypes.INTEGER,
     allowNull: false,
-    primaryKey: false,
+    primaryKey: true,
     autoIncrement: true,
   },
   category_name: {
